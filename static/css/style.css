@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@font-face {
+	font-family: "Open Sans Condensed";
+	src: url("/static/fonts/OpenSans-CondLight.ttf");
+}
+
+@font-face {
+	font-family: "Open Sans Condensed";
+	src: url("/static/fonts/OpenSans-CondBold.ttf");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Open Sans Condensed";
+	src: url("/static/fonts/OpenSans-CondLightItalic.ttf");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "JetBrains Mono";
+	src: url("/static/fonts/JETBRAINSMONONL-REGULAR.TTF");
+	font-style: italic;
+}
+
+
+
+:root {
+	--text-color: #C4BFB7;
+}
+
+body {
+	background: #191a1b;
+	color: var(--text-color);
+}
+
+::-webkit-scrollbar {
+    background-color: #2a2b2c;
+    color: #d2cdc7;
+}
+
+::-webkit-scrollbar {
+    background-color: #2a2b2c;
+    color: #d2cdc7;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #595c5e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: orangered;
+}
+
+.card {
+	background: transparent;
+	border: 0;
+	text-wrap: balance;
+	align-items: center;
+	margin: 1rem 0;
+	color: var(--text-color);
+}
+
+.card a {
+	max-width: 50vw;
+}
+
+.card-body {
+	max-width: 50vw;
+	text-align: center;
+}
+
+.card-img-top {
+	border-radius: 15px;
+}
+
+.nudge {
+	transform: translate(0, -2px);
+}
+
+.large-nudge {
+	transform: translate(0, -2px);
+}
+
+.github-icon {
+	margin-right: 5px;
+	width: 20px;
+}
+
+iframe {
+	--height: 400px;
+	min-height: var(--height);
+	min-width: calc(var(--height) * 1.618);
+}
+
+.navbar {
+	font-family: "JetBrains Mono", monospace;
+}
