@@ -91,7 +91,7 @@ a {
 }
 
 iframe {
-	--height: 400px;
+	--height: min(400px, 50vw);
 	min-height: var(--height);
 	min-width: calc(var(--height) * 1.618);
 }
