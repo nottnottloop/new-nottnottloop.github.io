@@ -22,8 +22,6 @@
 	font-style: italic;
 }
 
-
-
 :root {
 	--text-color: #C4BFB7;
 }
@@ -31,6 +29,9 @@
 body {
 	background: #191a1b;
 	color: var(--text-color);
+	min-height: 100vh;
+	display: grid;
+	grid-template: 5% 1fr 15% / 1fr;
 }
 
 ::-webkit-scrollbar {
@@ -55,6 +56,10 @@ h1, h2, h3, h4, h5, h6 {
 a {
 	text-decoration: none;
 	color: orangered;
+}
+
+.projects-container {
+	margin: auto auto;
 }
 
 .card {
