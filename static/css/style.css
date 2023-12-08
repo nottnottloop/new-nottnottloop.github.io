@@ -31,7 +31,7 @@ body {
 	color: var(--text-color);
 	min-height: 100vh;
 	display: grid;
-	grid-template: 5% 1fr 15% / 1fr;
+	grid-template: auto 1fr 15% / 1fr;
 }
 
 ::-webkit-scrollbar {
@@ -65,14 +65,11 @@ a {
 .card {
 	background: transparent;
 	border: 0;
-	text-wrap: balance;
 	align-items: center;
 	margin: 1rem 0;
 	color: var(--text-color);
-}
-
-.card a {
-	max-width: 50vw;
+	text-wrap: balance;
+	max-width: 90%;
 }
 
 .card-body {
